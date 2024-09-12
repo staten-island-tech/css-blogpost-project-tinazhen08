@@ -1,6 +1,20 @@
 html, body, * {
-    font-size: 16px;
     padding: 0;
-    margin:0; 
+    margin:2; 
     box-sizing: border-box;
+    background-color: cornflowerblue;
+}
+
+.header{
+    font-size: 50px;
+    color:white;
+}
+
+#sub-header{
+    font-size: 24px;
+}
+
+.first{
+    font-size: 35px;
+    margin: 10;
 }
