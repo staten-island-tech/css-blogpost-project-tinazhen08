@@ -1,20 +1,87 @@
-html, body, * {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+  background: black;
+}
+
+.header {
+  padding: 0px;
+  font-size: 40px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+.left {
+  float: left;
+  width: 75%;
+}
+
+.right {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+div.image1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 350px;
+  background-image: url("img/The_Conjuring_poster.jpg");
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+div.image2 {
+  width: 100%;
+  /* background-image:url('yourimage.file') */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: white;
+}
+
+div.image3 {
+  width: 100%;
+  /* background-image:url('yourimage.file') */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: white;
+}
+
+.post {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .left,
+  .right {
+    width: 100%;
     padding: 0;
-    margin:2; 
-    box-sizing: border-box;
-    background-color: cornflowerblue;
-}
-
-.header{
-    font-size: 50px;
-    color:white;
-}
-
-#sub-header{
-    font-size: 24px;
-}
-
-.first{
-    font-size: 35px;
-    margin: 10;
+  }
 }
