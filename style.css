@@ -8,44 +8,54 @@ body,
 }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
   padding: 20px;
   background: black;
 }
 
 .header {
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
-  background: black;
   color: white;
   margin: 1rem auto;
 }
 
-.left {
+.middle {
   float: left;
-  width: 75%;
-}
-
-.right {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
+  width: 100%;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 35px;
+  margin: 1rem auto;
 }
 
 h5 {
-  font-size: 15px;
+  font-size: 20px;
+  margin: 1rem auto;
 }
 
 .post {
   background-color: white;
   padding: 20px;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 600px;
+  margin-top: 30px;
+}
+
+img {
+  width: 60%;
+}
+
+a,
+.description {
+  font-size: 20px;
+  margin: 1rem auto;
+}
+
+h3 {
+  font-size: 25px;
+  margin: 1rem auto;
 }
 
 .row::after {
@@ -59,5 +69,6 @@ h5 {
   .right {
     width: 100%;
     padding: 0;
+    margin: 0;
   }
 }
