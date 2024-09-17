@@ -52,8 +52,3 @@ h3 {
   margin: 1rem auto;
 }
 
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
